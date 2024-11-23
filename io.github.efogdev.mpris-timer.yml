@@ -34,6 +34,10 @@ modules:
     sources:
       - type: git
         url: https://github.com/efogdev/mpris-timer
+<<<<<<< Updated upstream
         tag: 1.4.1
+=======
+        tag: 1.4.2
+>>>>>>> Stashed changes
       - go.mod.yml
 
