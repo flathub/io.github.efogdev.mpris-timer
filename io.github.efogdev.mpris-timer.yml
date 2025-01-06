@@ -13,6 +13,8 @@ finish-args:
   - --socket=pulseaudio 
   - --share=ipc
   - --device=dri
+  - --talk-name=org.kde.StatusNotifierWatcher # Used for AppIndicator support
+  - --talk-name=org.freedesktop.Notifications # Used for AppIndicator support
 
 modules:
   - name: play-timer
@@ -34,6 +36,6 @@ modules:
     sources:
       - type: git
         url: https://github.com/efogdev/mpris-timer
-        tag: 1.6.2
+        tag: 2.0.2
       - go.mod.yml
 
